@@ -24,9 +24,9 @@ class _Sign_InState extends State<Sign_In> {
             if (result == null) {
               print("❌ Error signing in Anonymously");
             } else {
-              //print("✅ Signed in successfully with UID: ${result.uid}");
-              print("signed in");
-              print(result);
+              print("✅ Signed in successfully with UID: ${result.uid}");
+              //print("signed in");
+            
             }
           },
         ),
